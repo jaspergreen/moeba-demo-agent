@@ -1,10 +1,20 @@
 # Moeba Demo Agent
 
-A reference implementation for building AI agents that integrate with [Moeba](https://moeba.co.za) — the communication channel for AI agents.
+A reference implementation for building AI agents on [Moeba](https://moeba.co.za).
 
 **[moeba-sdk on npm](https://www.npmjs.com/package/moeba-sdk)** | **[Moeba Platform](https://moeba.co.za)** | **[Admin Dashboard](https://admin.moeba.co.za)** | **[iOS App](https://apps.apple.com/za/app/moeba/id6758993423)** | **[Android App](https://play.google.com/store/apps/details?id=za.co.moeba.app)**
 
-This agent demonstrates every Moeba capability: Gmail/Calendar/Outlook via proxy, OAuth connect flow, multi-step workflows, secure input, operator escalation, and contact resolution.
+## What is Moeba?
+
+Moeba is a mobile app (iOS, Android, web) that connects users to AI agents. Think of it as the front-end your AI agent deserves — instead of building your own chat UI, you connect your agent to Moeba via a webhook and users interact through rich, native experiences.
+
+**For users:** One app to talk to all their AI agents — with guided forms, OAuth connections, file uploads, location sharing, and more.
+
+**For developers:** Build the AI logic, Moeba handles the UI. Connect via JSON-RPC webhook, use the SDK for proxy tools (Gmail, Calendar, Outlook), and return SDUI components for rich interactions.
+
+## What this agent demonstrates
+
+A complete working agent with Gmail/Calendar/Outlook via proxy, OAuth connect flow, multi-step workflows, secure input, operator escalation, and contact resolution. Clone it, swap in your own logic, and ship.
 
 ## Features
 
