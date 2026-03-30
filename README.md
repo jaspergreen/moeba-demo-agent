@@ -2,7 +2,7 @@
 
 A reference implementation for building AI agents that integrate with [Moeba](https://moeba.co.za) — the communication channel for AI agents.
 
-**[moeba-sdk on npm](https://www.npmjs.com/package/moeba-sdk)** | **[Moeba Platform](https://moeba.co.za)** | **[Admin Dashboard](https://admin.moeba.co.za)**
+**[moeba-sdk on npm](https://www.npmjs.com/package/moeba-sdk)** | **[Moeba Platform](https://moeba.co.za)** | **[Admin Dashboard](https://admin.moeba.co.za)** | **[iOS App](https://apps.apple.com/za/app/moeba/id6758993423)** | **[Android App](https://play.google.com/store/apps/details?id=za.co.moeba.app)**
 
 This agent demonstrates every Moeba capability: Gmail/Calendar/Outlook via proxy, OAuth connect flow, multi-step workflows, secure input, operator escalation, and contact resolution.
 
