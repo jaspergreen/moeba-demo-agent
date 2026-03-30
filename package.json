@@ -1,0 +1,29 @@
+{
+  "name": "moeba-demo-agent",
+  "version": "1.0.0",
+  "description": "Reference Moeba agent — Gmail, Calendar, Outlook via proxy, OAuth, workflows, and all SDUI capabilities",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "ai": "^4.3.0",
+    "@ai-sdk/google": "^1.2.0",
+    "@ai-sdk/openai": "^1.3.0",
+    "@ai-sdk/anthropic": "^1.2.0",
+    "moeba-sdk": "^1.3.0",
+    "fastify": "^5.0.0",
+    "zod": "^3.23.0",
+    "dotenv": "^16.4.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.0",
+    "@types/node": "^20.0.0",
+    "tsx": "^4.0.0"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
