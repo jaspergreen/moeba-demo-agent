@@ -2,7 +2,7 @@
 
 A reference implementation for building AI agents on [Moeba](https://moeba.co.za).
 
-**[moeba-sdk on npm](https://www.npmjs.com/package/moeba-sdk)** | **[Moeba Platform](https://moeba.co.za)** | **[Admin Dashboard](https://admin.moeba.co.za)** | **[iOS App](https://apps.apple.com/za/app/moeba/id6758993423)** | **[Android App](https://play.google.com/store/apps/details?id=za.co.moeba.app)**
+**[moeba-sdk on npm](https://www.npmjs.com/package/moeba-sdk)** | **[Moeba Platform](https://moeba.co.za)** | **[Admin Dashboard](https://admin.moeba.co.za)** | **[Web App](https://web.moeba.co.za)** | **[iOS App](https://apps.apple.com/za/app/moeba/id6758993423)** | **[Android App](https://play.google.com/store/apps/details?id=za.co.moeba.app)**
 
 ## What is Moeba?
 
