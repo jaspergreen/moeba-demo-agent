@@ -2,6 +2,8 @@
 
 A reference implementation for building AI agents that integrate with [Moeba](https://moeba.co.za) — the communication channel for AI agents.
 
+**[moeba-sdk on npm](https://www.npmjs.com/package/moeba-sdk)** | **[Moeba Platform](https://moeba.co.za)** | **[Admin Dashboard](https://admin.moeba.co.za)**
+
 This agent demonstrates every Moeba capability: Gmail/Calendar/Outlook via proxy, OAuth connect flow, multi-step workflows, secure input, operator escalation, and contact resolution.
 
 ## Features
@@ -102,7 +104,11 @@ src/
 
 ## Proxy Tools (via moeba-sdk)
 
-The agent uses `MoebaClient` from `moeba-sdk` to access user data. No direct API calls, no token management.
+The agent uses [`moeba-sdk`](https://www.npmjs.com/package/moeba-sdk) to access user data. No direct API calls, no token management.
+
+```bash
+npm install moeba-sdk
+```
 
 ```typescript
 const moeba = new MoebaClient({ apiKey: 'mba_...', baseUrl: '...' });
